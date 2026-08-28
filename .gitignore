@@ -1,3 +1,4 @@
+.gitignore
 node_modules/
 build/
 dist/
@@ -6,3 +7,8 @@ coverage/
 *.log
 .env*
 !.env.example
+# Remove committed firebase config from repo; keep an example only
+firebase-applet-config.json
+# Ignore any other local/private firebase files
+firebase-*.json
+.firebase/
